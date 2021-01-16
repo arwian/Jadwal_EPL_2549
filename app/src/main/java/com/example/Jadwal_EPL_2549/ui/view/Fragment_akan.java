@@ -33,7 +33,7 @@ public class Fragment_akan extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_next, container, false);
+        View view = inflater.inflate(R.layout.fragment_akandatang, container, false);
         rvNextMatch = view.findViewById(R.id.rv_nextmatch);
         rvNextMatch.setHasFixedSize(true);
         rvNextMatch.setLayoutManager(new LinearLayoutManager(getContext()));
